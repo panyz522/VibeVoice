@@ -97,6 +97,8 @@ python demo/inference_from_file.py --model_path vibevoice/VibeVoice-7B --txt_pat
 
 # disable voice cloning (skip speech prefill)
 python demo/inference_from_file.py --model_path vibevoice/VibeVoice-7B --txt_path demo/text_examples/1p_abs.txt --speaker_names Alice --disable_prefill
+
+python demo/inference_from_file.py --model_path vibevoice/VibeVoice-7B --input_dir text/ --speaker_names Anchen Sha Bowen
 ```
 
 
